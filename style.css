@@ -1,124 +1,149 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-  
-   background-color: rgb(178, 178, 178);
+
+body {
+
+    background-color: rgb(178, 178, 178);
 }
-main{
+
+main {
     margin: 0 auto;
     max-width: 990px;
 }
-header{
+
+header {
     background-color: blue;
 }
-.ldea{
-padding: 20px;
+
+.ldea {
+    padding: 20px;
 }
-.ldea img{
+
+.ldea img {
     width: 50px;
-     
+
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     max-width: 990px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
-.nav ul{
+
+.nav ul {
     display: flex;
     align-items: center;
-   
+
 }
-.nav ul li{
-     list-style-type: none;
+
+.nav ul li {
+    list-style-type: none;
     margin: 10px;
     color: aliceblue;
 }
-a{
+
+a {
     text-decoration: none;
     padding: 5px;
 }
-.players img{
+
+.players img {
     width: 65px;
 }
-.container{
+
+.container {
     background-color: rgb(255, 255, 255);
     border-radius: 9px;
 }
-.to-player{
+
+.to-player {
     padding: 20px;
 }
-.player-name{
+
+.player-name {
     margin-left: 15px;
 }
-.player-list{
+
+.player-list {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-     gap: 10px;
-     padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
 }
-.players{
+
+.players {
     display: flex;
     align-items: center;
 
 }
-hr{
+
+hr {
     width: 90%;
-   margin: 0 auto;
+    margin: 0 auto;
 }
+
 /* blog start here */
-.blog{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-padding: 20px;
+.blog {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
 }
-.blogs img{
-width: 177px;
+
+.blogs img {
+    width: 177px;
 }
-.blogs{
+
+.blogs {
     display: flex;
     padding: 5px;
 }
-.blog-info{
+
+.blog-info {
     margin-left: 20px;
 }
+
 /* blog end here */
-.courses img{
+.courses img {
     width: 200px;
-   
+
 }
-.ster img{
+
+.ster img {
     width: 20px;
 }
 
-.time-icon img{
+.time-icon img {
     width: 20px;
 }
-.course{
+
+.course {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     margin-top: 20px;
     border-radius: 5px;
 }
-.courses{
+
+.courses {
     background-color: rgb(251, 254, 254);
-   padding: 20px;
-   box-shadow: 2px 2px 4px rgb(227, 226, 226);
+    padding: 20px;
+    box-shadow: 2px 2px 4px rgb(227, 226, 226);
 }
-.time{
+
+.time {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
-.time-icon{
+
+.time-icon {
     display: flex;
-     padding: 5px;
+    padding: 5px;
     background-color: rgb(205, 142, 142);
     border-radius: 50px;
 }
